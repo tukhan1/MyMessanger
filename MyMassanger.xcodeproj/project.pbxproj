@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3EB34D270F50F500B84198 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3EB34C270F50F500B84198 /* GoogleService-Info.plist */; };
 		DC85022A270C8A90005B0045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850229270C8A90005B0045 /* AppDelegate.swift */; };
 		DC85022C270C8A90005B0045 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85022B270C8A90005B0045 /* SceneDelegate.swift */; };
-		DC85022E270C8A90005B0045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85022D270C8A90005B0045 /* ViewController.swift */; };
+		DC85022E270C8A90005B0045 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85022D270C8A90005B0045 /* WelcomeViewController.swift */; };
 		DC850231270C8A90005B0045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC85022F270C8A90005B0045 /* Main.storyboard */; };
 		DC850233270C8A95005B0045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC850232270C8A95005B0045 /* Assets.xcassets */; };
 		DC850236270C8A95005B0045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC850234270C8A95005B0045 /* LaunchScreen.storyboard */; };
+		DC850243270CA8EA005B0045 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850242270CA8E9005B0045 /* RegisterViewController.swift */; };
+		DC850245270CA8FC005B0045 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850244270CA8FC005B0045 /* LoginViewController.swift */; };
+		DC850247270CA90E005B0045 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC850246270CA90E005B0045 /* ChatViewController.swift */; };
+		DC866D4A27160981009895FF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DC866D4927160981009895FF /* IQKeyboardManagerSwift */; };
+		DC87AA3827108C150033190B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87AA3727108C150033190B /* Constants.swift */; };
+		DC87AA4D27146D640033190B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87AA4C27146D640033190B /* Message.swift */; };
+		DC87AA50271475B90033190B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87AA4E271475B90033190B /* MessageCell.swift */; };
+		DC87AA51271475B90033190B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC87AA4F271475B90033190B /* MessageCell.xib */; };
+		F4A35C158E1B81FC648BE50A /* Pods_MyMassanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F64C7F61CC997A66DF68D6 /* Pods_MyMassanger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01F64C7F61CC997A66DF68D6 /* Pods_MyMassanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMassanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C026183F2F4B933F972017E /* Pods-MyMassanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMassanger.release.xcconfig"; path = "Target Support Files/Pods-MyMassanger/Pods-MyMassanger.release.xcconfig"; sourceTree = "<group>"; };
+		6DDFE2C1F5B53F2998503DBD /* Pods-MyMassanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMassanger.debug.xcconfig"; path = "Target Support Files/Pods-MyMassanger/Pods-MyMassanger.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3EB34C270F50F500B84198 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC850226270C8A90005B0045 /* MyMassanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMassanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC850229270C8A90005B0045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC85022B270C8A90005B0045 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC85022D270C8A90005B0045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC85022D270C8A90005B0045 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		DC850230270C8A90005B0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC850232270C8A95005B0045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC850235270C8A95005B0045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC850237270C8A95005B0045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC850242270CA8E9005B0045 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DC850244270CA8FC005B0045 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC850246270CA90E005B0045 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DC87AA3727108C150033190B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DC87AA4C27146D640033190B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DC87AA4E271475B90033190B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		DC87AA4F271475B90033190B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A35C158E1B81FC648BE50A /* Pods_MyMassanger.framework in Frameworks */,
+				DC866D4A27160981009895FF /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E807D0C88DCD845EFE05677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01F64C7F61CC997A66DF68D6 /* Pods_MyMassanger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78704E52514C548A5D1404F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DDFE2C1F5B53F2998503DBD /* Pods-MyMassanger.debug.xcconfig */,
+				5C026183F2F4B933F972017E /* Pods-MyMassanger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC85021D270C8A90005B0045 = {
 			isa = PBXGroup;
 			children = (
 				DC850228270C8A90005B0045 /* MyMassanger */,
 				DC850227270C8A90005B0045 /* Products */,
+				C78704E52514C548A5D1404F /* Pods */,
+				0E807D0C88DCD845EFE05677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,47 @@
 		DC850228270C8A90005B0045 /* MyMassanger */ = {
 			isa = PBXGroup;
 			children = (
+				DC85023D270C8AAA005B0045 /* Model */,
+				DC85023E270C8AB3005B0045 /* View */,
+				DC85023F270C8ABA005B0045 /* Controller */,
 				DC850229270C8A90005B0045 /* AppDelegate.swift */,
 				DC85022B270C8A90005B0045 /* SceneDelegate.swift */,
-				DC85022D270C8A90005B0045 /* ViewController.swift */,
-				DC85022F270C8A90005B0045 /* Main.storyboard */,
 				DC850232270C8A95005B0045 /* Assets.xcassets */,
 				DC850234270C8A95005B0045 /* LaunchScreen.storyboard */,
 				DC850237270C8A95005B0045 /* Info.plist */,
+				DC3EB34C270F50F500B84198 /* GoogleService-Info.plist */,
+				DC87AA3727108C150033190B /* Constants.swift */,
 			);
 			path = MyMassanger;
+			sourceTree = "<group>";
+		};
+		DC85023D270C8AAA005B0045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC87AA4C27146D640033190B /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC85023E270C8AB3005B0045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC85022F270C8A90005B0045 /* Main.storyboard */,
+				DC87AA4E271475B90033190B /* MessageCell.swift */,
+				DC87AA4F271475B90033190B /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC85023F270C8ABA005B0045 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC85022D270C8A90005B0045 /* WelcomeViewController.swift */,
+				DC850242270CA8E9005B0045 /* RegisterViewController.swift */,
+				DC850244270CA8FC005B0045 /* LoginViewController.swift */,
+				DC850246270CA90E005B0045 /* ChatViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC85023A270C8A95005B0045 /* Build configuration list for PBXNativeTarget "MyMassanger" */;
 			buildPhases = (
+				A7FD8A4073EBAC2B4F15260F /* [CP] Check Pods Manifest.lock */,
 				DC850222270C8A90005B0045 /* Sources */,
 				DC850223270C8A90005B0045 /* Frameworks */,
 				DC850224270C8A90005B0045 /* Resources */,
+				148519C6605DCBDE2CC758E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyMassanger;
+			packageProductDependencies = (
+				DC866D4927160981009895FF /* IQKeyboardManagerSwift */,
+			);
 			productName = MyMassanger;
 			productReference = DC850226270C8A90005B0045 /* MyMassanger.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = DC85021D270C8A90005B0045;
+			packageReferences = (
+				DC866D4827160981009895FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = DC850227270C8A90005B0045 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC87AA51271475B90033190B /* MessageCell.xib in Resources */,
 				DC850236270C8A95005B0045 /* LaunchScreen.storyboard in Resources */,
+				DC3EB34D270F50F500B84198 /* GoogleService-Info.plist in Resources */,
 				DC850233270C8A95005B0045 /* Assets.xcassets in Resources */,
 				DC850231270C8A90005B0045 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		148519C6605DCBDE2CC758E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMassanger/Pods-MyMassanger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyMassanger/Pods-MyMassanger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyMassanger/Pods-MyMassanger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7FD8A4073EBAC2B4F15260F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMassanger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC850222270C8A90005B0045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC85022E270C8A90005B0045 /* ViewController.swift in Sources */,
+				DC85022E270C8A90005B0045 /* WelcomeViewController.swift in Sources */,
 				DC85022A270C8A90005B0045 /* AppDelegate.swift in Sources */,
 				DC85022C270C8A90005B0045 /* SceneDelegate.swift in Sources */,
+				DC850245270CA8FC005B0045 /* LoginViewController.swift in Sources */,
+				DC87AA3827108C150033190B /* Constants.swift in Sources */,
+				DC87AA4D27146D640033190B /* Message.swift in Sources */,
+				DC850247270CA90E005B0045 /* ChatViewController.swift in Sources */,
+				DC850243270CA8EA005B0045 /* RegisterViewController.swift in Sources */,
+				DC87AA50271475B90033190B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +416,7 @@
 		};
 		DC85023B270C8A95005B0045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDFE2C1F5B53F2998503DBD /* Pods-MyMassanger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +430,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +446,7 @@
 		};
 		DC85023C270C8A95005B0045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C026183F2F4B933F972017E /* Pods-MyMassanger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +460,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC866D4827160981009895FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC866D4927160981009895FF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC866D4827160981009895FF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC85021E270C8A90005B0045 /* Project object */;
 }
